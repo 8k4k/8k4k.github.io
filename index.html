@@ -21,11 +21,16 @@
             <p class="abt-cntnt">Hi i'm begginer in web developing.
                 in mow html css and little of javascript.
                 I'm 11 Years old.
+                <span id="dots">...</span><span id="more">
+                    
                 As languages i know English, Turkish and i can only talk Arabic.
                 I live in Turkey.
                 I'm beginner in coding.
                 As hobbies i like playing with xbox, coding and playing basketball.
-          <h1 class="name-"><img class="small" src="../new portfoli/IMG_6573.jpeg" alt="">
+                </span>
+                <br>
+                <button class="btn btn-danger text-white" onclick="myFunction()" id="myBtn">Read</button>
+          <h1 class="name-"><img class="small" src="..." alt="">
            <p class="me"></p> Yup, Thats me</h1>
         </div>
             </p>
@@ -60,6 +65,25 @@
             <p class="lead">Copyright &copy; 2022 Frontend 12M</p>
         </div>
     </footer>
+
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read"; 
+            moreText.style.display = "none";
+          } 
+          else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Close"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

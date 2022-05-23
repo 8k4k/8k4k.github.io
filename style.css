@@ -27,12 +27,12 @@
     margin-left: 15%;
     font-size: 20px;
     margin-bottom: 1cm;
-    width: 35%;
+    width: 30%;
 }
 .name {
     font-size: 1cm;
     text-align: left;
-    margin-left: 60%;
+    margin-left: 55%;
     margin-bottom: 20px;
 }
 .name- {
@@ -105,4 +105,7 @@ body {
 }
 .lead {
     font-size: 30px;
+}
+#more {
+    display:none
 }
