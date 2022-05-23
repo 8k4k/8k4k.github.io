@@ -1,0 +1,111 @@
+.rw {
+    background: linear-gradient(to right, rgb(241, 52, 52) 50%, #fff 50%);
+    margin: 0px;
+}
+body {
+    margin: 0px;
+}
+.big {
+    text-align: center;
+    padding: 4cm 0;
+    padding-bottom: 1cm;
+    margin: 0px;
+    font-size: 2cm;
+}
+.wr {
+    background: linear-gradient(to left, rgb(241, 52, 52) 50%, #fff 50%);
+    margin: 0px;
+}
+.abt {
+    text-align: left;
+    padding: 1cm 0;
+    vertical-align:middle;
+    margin: 0px;
+    margin-left: 15%;
+}
+.abt-cntnt {
+    text-align: left;
+    vertical-align:middle;
+    margin: 0px;
+    margin-left: 15%;
+    font-size: 20px;
+    margin-bottom: 1cm;
+    width: 35%;
+}
+.name {
+    font-size: 1cm;
+    text-align: left;
+    margin-left: 60%;
+    margin-bottom: 20px;
+}
+.name- {
+    font-size: 1cm;
+    text-align: right;
+    margin-right: 5cm;
+}
+.small {
+    font-size: 1cm;
+    text-align: right;
+    margin-right: 2cm;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 19cm, 19cm;
+    grid-template-rows: 3cm;
+}
+img {
+    display: block;
+    width: 10%;
+    height: 70%;
+    border-radius: 100cm;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+.me-to {
+    text-align: center;
+    margin: 0px;
+}
+.left {
+    float: left;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: auto;
+    grid-gap: 156px;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+.card {
+    box-shadow: 0 14px 16px 0 rgb(0, 0, 0);
+    transition: 0.3s;
+    width: 250px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+.card- {
+    box-shadow: 0 14px 16px 0 rgba(0, 0, 0);
+    transition: 0.3s;
+    width: 250px;
+    height: 200px;
+    background: linear-gradient(to right, rgb(241, 52, 52) 50%, #fff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+body {
+    background: linear-gradient(to right, rgb(241, 52, 52) 50%, #fff 50%);
+}
+.lead {
+    font-size: 30px;
+}
