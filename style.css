@@ -50,7 +50,7 @@
     grid-template-columns: 19cm, 19cm;
     grid-template-rows: 3cm;
 }
-img {
+.small {
     display: block;
     width: 10%;
     height: 70%;
