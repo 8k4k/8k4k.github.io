@@ -87,11 +87,13 @@ body {
 }
 .card-text {
     margin: 40px;
+    font-size: small;
 }
 .card-texto {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: small;
 }
 @media screen and (min-width: 480px) {
     .card-text {
