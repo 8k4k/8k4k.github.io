@@ -88,23 +88,23 @@ body {
 .card-text {
     margin: 20px;
     margin-bottom: 10px;
-    font-size:medium;
+    font-size: 90%;
 }
 .card-texto {
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 80%;
 }
 @media screen and (min-width: 480px) {
     .card-text {
-        margin: 20px;
+        margin: 40px;
         margin-bottom: 10px;
     }
     .card-texto {
         margin-bottom: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 .io {
