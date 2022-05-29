@@ -86,14 +86,14 @@ body {
     height: 110%;
 }
 .card-text {
-    margin: 40px;
-    font-size: small;
+    margin: 20px;
+    font-size:medium;
 }
 .card-texto {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: small;
+    font-size: 80%;
 }
 @media screen and (min-width: 480px) {
     .card-text {
