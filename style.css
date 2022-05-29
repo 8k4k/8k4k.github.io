@@ -87,6 +87,7 @@ body {
 }
 .card-text {
     margin: 20px;
+    margin-bottom: 10px;
     font-size:medium;
 }
 .card-texto {
@@ -98,6 +99,7 @@ body {
 @media screen and (min-width: 480px) {
     .card-text {
         margin: 20px;
+        margin-bottom: 10px;
     }
     .card-texto {
         margin-bottom: 20px;
