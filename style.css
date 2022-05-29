@@ -86,21 +86,21 @@ body {
     height: 110%;
 }
 .card-text {
-    margin: 20px;
+    margin: 40px;
 }
 .card-texto {
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     .card-text {
-        margin: 40px;
+        margin: 20px;
     }
     .card-texto {
         margin-bottom: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 .io {
